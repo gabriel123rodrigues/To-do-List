@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./background\ todolist.jpg);
+    background-size: cover;
+    
+}
+
+navbar{
+    display:flex;
+    justify-content: center;
+    gap:30px;
+    margin-top: 30px;
+}
+input{
+    width: 350px;
+    height: 45px;
+    border-radius: 5px;
+    border:none;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    align-self: center;
+    border-radius: 15px;
+    margin-top: 25px;
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(97, 25, 145);
+    opacity: 0.8;
+}
